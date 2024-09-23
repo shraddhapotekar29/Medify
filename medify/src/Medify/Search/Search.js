@@ -13,7 +13,7 @@ const Search=()=>{
     const[cities,setCities]=useState([]);
     const[state,setState]=useState("");
     const[city,setCity]=useState("");
-   //const[hospitalData,setHospitalData]=useState([]);
+
    const navigate=useNavigate();
     const getCityData=async(state)=>{
         try{
@@ -28,6 +28,7 @@ const Search=()=>{
     }catch(err){
         console.log(err);
     }}
+    
     const getHospitalData = async (state, city) => {
         navigate("/booking", { state: { state:state,city:city } }); 
     };
