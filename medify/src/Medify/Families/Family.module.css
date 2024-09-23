@@ -1,0 +1,38 @@
+.family {
+    height: 550px;
+    width:85%;
+    margin-left: 10rem;
+    position: relative;
+  }
+  .secondImg{
+    position: relative;
+    top:2rem;
+  }
+  
+.fourthImg{
+    position: relative;
+    top:2rem;
+}
+.gridDiv{
+  margin-top:10rem;
+  text-align: left;
+  padding-right: 5rem;
+}
+
+  @media(max-width:768px)
+  {
+    .family {
+      height: auto;
+        width:85%;
+        margin-left: 0;
+      }
+      .gridDiv{
+        margin-left:2rem;
+        text-align: left;
+        padding-right: 0;
+      }
+       .secondGridDiv{
+        padding-right: 2rem;
+       }
+       
+  }

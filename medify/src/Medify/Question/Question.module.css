@@ -1,0 +1,38 @@
+.size{
+    height:600px;
+}
+.queGrid{
+    height: 500px;
+}
+.secondGrid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgDiv img{
+    width: 40rem;
+}
+.queDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 28rem;
+   }
+@media(max-width:768px)
+{
+    .firstGrid{
+        margin-left: 0;
+    }
+    .imgDiv img{
+        width: 20rem;
+    }
+    .secondGrid{
+        margin-left: 2rem;
+    }
+    .size{
+     height: 800px;
+    }
+    .queDiv{
+        width: 20rem;
+       }
+}

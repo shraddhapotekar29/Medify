@@ -1,0 +1,95 @@
+.cardData{
+    width: 100%;
+   
+}
+.header{
+    margin-left: 8rem;
+    margin-top: 5rem;
+    text-align: left;
+}
+.cardDiv{
+    margin-top: 4rem;
+    margin-left: 6rem;
+    width: 85%;
+}
+.cards{
+    /* padding: 2rem; */
+    margin-bottom: 1rem;
+    width: 50rem;
+    min-height: 15rem;
+  background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+   text-align: left;
+   justify-content: center;
+}
+.row{
+    display: flex;
+    text-align: left;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+.tabComponent{
+    min-height: 200px;
+    width: 46rem;
+    background-color: #ffffff;
+    /* border: 1px solid black;
+    border-radius: 15px; */
+    margin-left: 0;
+
+}
+.imgDiv{
+    background-color: #8CCFFF;
+    width:8rem;
+    height:8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px)
+{
+    .header{
+        margin-left: 0;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    .cardDiv{
+        margin-top: 4rem;
+        margin-left: 2rem;
+        width: 85%;
+    }
+    .cards{
+        padding: 2rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        min-height: 30rem;
+      background-color: #ffffff;
+        border-radius: 15px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+       text-align: left;
+       align-items: center;
+       justify-content: center;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .tabComponent{
+        min-height: 200px;
+        width: 100%;
+        background-color: #ffffff;
+        /* border: 1px solid black;
+        border-radius: 15px; */
+        margin-left: 0;
+    
+    }
+}

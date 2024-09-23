@@ -1,0 +1,15 @@
+.inputGrid{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.stateDiv{
+    margin: 2px;
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+    .inputGrid{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+}

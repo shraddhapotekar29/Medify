@@ -1,0 +1,17 @@
+.blog{
+   align-items: center;
+   justify-content: center;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+}
+.cardBox{
+    width: 85%;
+    margin-left: 6rem;
+}
+
+@media(max-width:768px)
+{
+    .cardBox{
+        margin-left: 2rem;
+    }
+}

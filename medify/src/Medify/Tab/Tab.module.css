@@ -1,0 +1,40 @@
+.tabDiv{
+     width: 100%;
+     margin-left: 2rem;
+      margin-top: 2rem;
+      
+}
+.session{
+    text-align: left;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.morning{
+    margin-left: 2rem !important;
+}
+.afternoon{
+    margin-left: 1rem !important;
+}
+.evening{
+    margin-left: 2rem !important;
+}
+.btns{
+    margin-left: 1rem !important;
+}
+
+@media (max-width:768px)
+{
+    .tabDiv{
+        width: 100%;
+        margin-left: 0 !important;
+         margin-top: 2rem;
+         
+        }
+        .session{
+            text-align: left;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+}
