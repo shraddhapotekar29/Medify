@@ -52,7 +52,7 @@ const CardComponent = ({ hospitalData, state, city,setSelectedHospital,selectedH
                     </h6>
                     <p>{hospital["Hospital Type"]}</p>
                     {!btn &&<p>
-                      <span style={{ color: "#02A401" }}>FREE</span> ₹500 Consultation fee at clinic
+                      <span style={{ color: "#02A401" }}>FREE</span> <del>₹500</del> Consultation fee at clinic
                     </p>}
                     <div
                       style={{
