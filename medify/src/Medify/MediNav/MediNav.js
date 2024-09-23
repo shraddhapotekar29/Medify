@@ -46,7 +46,7 @@ const MediNav = () => {
         </Grid>
       </Box>
     </div>
-    <div className={style.searchBox}>
+    <div className={style.searchBox1}>
       <Search/>
       <h5 className={style.imgCardTitle}>You May Be Looking For</h5>
       <Box  className={style.imgCard}>

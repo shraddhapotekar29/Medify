@@ -22,6 +22,9 @@
 ul{
     gap: 2rem;
 }
+.searchBox1{
+   background-color: #ffffff;
+}
  .searchBox{
     width: 80%;
     height: 20rem;
