@@ -38,7 +38,8 @@ return(<>
 </div>
 </div>
 <div className={style.searchGrid}>
-    <Search/></div>
+    <Search/>
+    </div>
 </div>
 {
     hospitalData.length>0?(<div className={style.cardDiv}><CardComponent hospitalData={hospitalData} state={state} city={city} setSelectedHospital={setSelectedHospital} selectedHospital={selectedHospital}/></div>):null
