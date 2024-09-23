@@ -24,6 +24,9 @@ ul{
 }
 .searchBox1{
    background-color: #ffffff;
+   width: 80%;
+    height: 20rem;
+    margin-left: 10rem;
 }
  .searchBox{
     width: 80%;
