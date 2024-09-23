@@ -23,6 +23,8 @@ ul{
     gap: 2rem;
 }
 .searchBox1{
+   position: relative;
+   z-index: 3;
    background-color: #ffffff;
    width: 80%;
     height: 20rem;
@@ -30,7 +32,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 6rem;
+    top: 6rem;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     border-radius: 15px;
 }
