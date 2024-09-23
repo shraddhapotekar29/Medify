@@ -46,17 +46,17 @@ const MediNav = () => {
         </Grid>
       </Box>
     </div>
-    <Box className={style.searchBox}>
+    {/* <Box className={style.searchBox}> */}
       <Search/>
-      <h5 className={style.imgCardTitle}>You May Be Looking For</h5>
-      <Box  className={style.imgCard}>
+      {/* <h5 className={style.imgCardTitle}>You May Be Looking For</h5> */}
+      {/* <Box  className={style.imgCard}>
       <div style={{display:"flex",flexDirection:"column"}}><img src={Doctors} alt="Doctors" width={50}/>Doctors</div>
      <div style={{display:"flex",flexDirection:"column"}}><img src={Labs} alt="Labs" width={50}/>Labs</div>
      <div style={{display:"flex",flexDirection:"column"}}><img src={Hospital} alt="Hospital" width={50}/>Hospitals</div>
      <div style={{display:"flex",flexDirection:"column"}}><img src={Medical} alt="Medical" width={50}/>Medicals</div>
      <div style={{display:"flex",flexDirection:"column"}}><img src={Ambulance} alt="Ambulance" width={50}/>Ambulance</div>
-    </Box>
-    </Box>
+    </Box> */}
+    {/* </Box> */}
     <div className={style.CarouselDiv}>
     <Carousel1 data={data} />
     </div>
